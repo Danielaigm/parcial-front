@@ -1,0 +1,10 @@
+.card{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: rgb(209, 240, 254);
+    border-radius: 10px;
+    &__name{
+        font-size: 28px;
+    }
+}

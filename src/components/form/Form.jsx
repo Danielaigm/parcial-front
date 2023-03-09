@@ -56,7 +56,7 @@ const Form = () => {
                 onChange={(e) => setUser({...user, hobbie:e.target.value})} 
                 placeholder='Ingresa tu hobbie'/>
 
-                <button className='form__button' >Enviar</button>
+                <button type='submit' className='form__button' >Enviar</button>
                 <button onClick={handleReset} className='form__button' >Reset</button>
             </form>
             <div className='error'>{err && "Por favor chequea que la información sea correcta"}</div> 
